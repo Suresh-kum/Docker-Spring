@@ -9,7 +9,7 @@ public class SpringDockerApplication {
 	
 	@GetMapping("/Message")
 	public String message() {
-		return "Hello Sureh.. Welcome to Spring With Docker..";
+		return "Hello Sureh, Welcome to Spring With Docker..";
 	}
 
 	public static void main(String[] args) {
